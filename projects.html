@@ -57,7 +57,8 @@
 						<h2>Leveraging machine learning in the development of wearable sensors for physical
 							rehabilitation</h2>
 					</header>
-					<a href="#" class="image main"><img src="images/slofashion.jpg" alt="Wearable Sensor Project" /></a>
+					<a href="#" class="image main"><img src="Dhana Images/Wearable Sensor.png"
+							alt="Wearable Sensor Project" /></a>
 					<p><b>Problem:</b></p>
 					<p>Traditional rehabilitation relies on brief clinical observations, which may miss subtle gait
 						variations essential for recovery. This lack of continuous monitoring makes it difficult to
@@ -66,40 +67,40 @@
 						environments, limiting their effectiveness for real-world applications. Without a data-driven,
 						accessible solution, individuals undergoing rehabilitation may face delayed adjustments in
 						therapy, slowing down their recovery.</p>
-					<p><b>Solution:</b></p>
-					<p>
+					<ul><b>Solution:</b></ul>
+					<li>
 						To address the limitations of traditional gait monitoring, we developed a wearable sensor-based
 						system that integrates machine learning to analyze gait patterns and classify walking
 						activities. The system captures resistance data from sensors embedded in footwear, ensuring
-						structured and consistent data collection across different movement patterns.</p>
+						structured and consistent data collection across different movement patterns.</li>
 
-					<p>The data is filtered to reduce teh noise and then key step features are extracted. Train the
+					<li>The data is filtered to reduce teh noise and then key step features are extracted. Train the
 						machine learning models to classify the different walking activities
 						accurately. Semi-supervised learning enhances the model’s ability to generalize to new data,
-						while synthetic data generation (GANs) helps address data limitations.</p>
+						while synthetic data generation (GANs) helps address data limitations.</li>
 
-					<p>The project aims to provide real-time gait monitoring.So, currently we are developing a mobile
+					<li>The project aims to provide real-time gait monitoring.So, currently we are developing a mobile
 						application that
 						connects to the sensor system via Bluetooth and Firebase. This ongoing work focuses on enabling
 						seamless data transmission and visualization, making gait tracking more accessible and
 						data-driven for rehabilitation and mobility assessment.
-					</p>
+					</li>
 					<p><b>Role:</b></p>
 					<p>This is a collaborative project and I handled the machine learning development, including model
 						training, data processing, and
 						optimization. I communicate project updates and results to non-technical team members, ensuring
 						alignment and clarity across the collaboration.</p>
-					<p><b>Tools & Languages Used:</b></p>
+					<h3>Tools & Languages Used:</h3>
 					<ul>
-						<li> Programming & Data Processing: Python, Pandas, NumPy, Scikit-learn</li>
-						<li>Machine Learning: Random Forest, SVM, Logistic Regression, Semi-Supervised Learning</li>
-						<li>Data Visualization: Power BI, Matplotlib, Excel</li>
-						<li>Hardware & Storage: Arduino, Bluetooth, Firebase</li>
+						<li><strong>Programming & Data Processing: Python, Pandas, NumPy, Scikit-learn</strong></li>
+						<li><strong>Machine Learning: Random Forest, SVM, Logistic Regression, Semi-Supervised Learning</strong></li>
+						<li><strong>Data Visualization: Power BI, Matplotlib, Excel</strong></li>
+						<li><strong>Hardware & Storage: Arduino, Bluetooth, Firebase</strong></li>
 					</ul>
 
-					<ul class="actions">
+					<!-- <ul class="actions">
 						<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a></li>
-					</ul>
+					</ul> -->
 
 
 					</ul>
@@ -120,18 +121,18 @@
 						introduces a novel approach to solving the Hamiltonian Cycle Problem by converting graphs into
 						3D point clouds, enabling neural networks to process and classify them based on their structural
 						properties. </p>
-					<p><b>Solution:</b></p>
-					<p>VN-Solver transforms 2D graphs into 3D point clouds using different graph embedding techniques,
+					<ul><strong>Solution:</strong></ul>
+					<li>VN-Solver transforms 2D graphs into 3D point clouds using different graph embedding techniques,
 						such as circular, spiral, and random layouts. This conversion preserves spatial relationships
-						between nodes and edges, allowing for enhanced feature extraction.</p>
-					<p>Graph-to-Point Cloud Conversion: Transformed 2D graphs into 3D point clouds using circular,
-						spiral, and random graph embeddings.</p>
-					<p>Feature Extraction & Representation: Captured node positions, edge relationships, and graph
-						properties for enhanced classification.</p>
-					<p>Graph Classification with PointNet: Applied PointNet to process unordered point sets and classify
-						graphs as Hamiltonian or non-Hamiltonian.</p>
-					<p>Performance Evaluation: Tested across different graph embeddings to assess accuracy and
-						robustness.</p>
+						between nodes and edges, allowing for enhanced feature extraction.</li>
+					<li><strong>Graph-to-Point Cloud Conversion:</strong> Transformed 2D graphs into 3D point clouds using circular,
+						spiral, and random graph embeddings.</li>
+					<li><strong>Feature Extraction & Representation:</strong> Captured node positions, edge relationships, and graph
+						properties for enhanced classification.</li>
+					<li><strong>Graph Classification with PointNet:</strong> Applied PointNet to process unordered point sets and classify
+						graphs as Hamiltonian or non-Hamiltonian.</li>
+					<li><strong>Performance Evaluation:</strong> Tested across different graph embeddings to assess accuracy and
+						robustness.</li>
 					<p><b>Role:</b></p>
 					<p>This is an individual project and I developed the graph-to-3D point cloud transformation
 						pipeline, implemented PointNet, and conducted experiments. Utilized GPU to process large
@@ -152,19 +153,43 @@
 				<!-- Project 3 -->
 				<section>
 					<header class="major">
-						<h2>AuAutomatic Music Generation Using Neural Networks</h2>
+						<h2>Automatic Piano Music Generation Using Neural Networks</h2>
 					</header>
-					<a href="#" class="image main"><img src="images/codeanalyzer.jpg" alt="Code Analyzer" /></a>
-					<p>• Combining music, AI, and ML to generate unique and innovative musical experiences using LSTM
-						and GRU models.
-						• Preprocessed piano-based MIDI dataset to extract musical features enabling effective training
-						of original compositions. </p>
-
-					<ul class="actions">
-						<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a></li>
-					</ul>
+					<a href="#" class="image main"><img src="Dhana Images/music_generation.jpg"
+							alt="Music Generation" /></a>
+					<p><b>Problem:</b></p>
+					<p>Traditional music composition requires extensive human expertise and creativity. Automating
+						music generation using artificial intelligence presents a challenge in producing expressive and
+						well-structured compositions that capture the distinctive characteristics of musical
+						instruments. This project aims to generate piano-based music using deep learning models while
+						addressing challenges like data sparsity, overfitting, and capturing long-term dependencies in
+						music patterns. </p>
+					<ul><b>Solution:</b></p>
+						<li> <strong>Data Collection & Preprocessing:</strong> MIDI files from various artists were collected and parsed
+							using the music21 library to extract piano notes, chords, and octaves.</li>
+						<li> <strong>Feature Engineering:</strong> Notes were converted into numerical sequences for deep learning model
+							training. Data sparsity was addressed by filtering low-frequency notes.</li>
+						<li><strong>Model Development: Implemented Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU)
+							networks to generate music sequences.</li>
+						<li><strong>Training & Evaluation:</strong> Trained models on sequential MIDI data, tuning hyperparameters and
+							optimizing for improved coherence and diversity in music generation.</li>
+						<li><strong>Music Generation & Output:</strong> Generated new music by iteratively predicting the next note in a
+							sequence, composing new melodies based on trained models.</li>
+						<p><b>Role:</b></p>
+						<p>This is an individual project and I developed the graph-to-3D point cloud transformation
+							pipeline, implemented PointNet, and conducted experiments. Utilized GPU to process large
+							datasets. </p>
+						<h3>Tools & Languages Used:</h3>
+						<ul>
+							<li><strong>Data Handling:</strong>music21, MIDI Dataset,glob, os</li>
+							<li><strong>Data Processing:</strong> TensorFlow, Keras, Numpy, Pandas </li>
+							<li><strong>Modeling & Optimization:</strong> LSTM, GRU, Adamax Optimizer </li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a>
+							</li>
+						</ul>
 				</section>
-
 			</section>
 
 		</div>
