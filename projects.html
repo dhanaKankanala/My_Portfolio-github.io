@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+-->
+<html>
+
+<head>
+	<title>Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<div id="wrapper">
+		<header id="header">
+			<a href="index.html" class="logo">Projects</a>
+		</header>
+
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="index.html">About Me</a></li>
+				<li class="active"><a href="projects.html">Projects</a></li>
+				<!-- <li><a href="resume.html">Resume</a></li>
+					<li><a href="experiences.html">Experiences</a></li>
+					<li><a href="Achievement.html">Achievements</a></li>
+					<li><a href="fearured.html">Featured</a></li> -->
+
+			</ul>
+			<ul class="icons">
+				<li><a href="https://github.com/Kdhana98" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
+				<li><a href="https://www.linkedin.com/in/dhanakankanala/" class="icon brands alt fa-linkedin"><span
+							class="label">LinkedIn</span></a></li>
+
+
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<section class="post">
+				<!-- Project 1: Walk Signal Project -->
+				<section>
+					<header class="h2">
+						<h2>Leveraging machine learning in the development of wearable sensors for physical
+							rehabilitation</h2>
+					</header>
+					<a href="#" class="image main"><img src="images/slofashion.jpg" alt="Wearable Sensor Project" /></a>
+					<p><b>Problem:</b></p>
+					<p>Traditional rehabilitation relies on brief clinical observations, which may miss subtle gait
+						variations essential for recovery. This lack of continuous monitoring makes it difficult to
+						track progress accurately, detect mobility impairments early, and tailor rehabilitation
+						strategies. Existing gait analysis methods are often costly, intrusive, or restricted to lab
+						environments, limiting their effectiveness for real-world applications. Without a data-driven,
+						accessible solution, individuals undergoing rehabilitation may face delayed adjustments in
+						therapy, slowing down their recovery.</p>
+					<p><b>Solution:</b></p>
+					<p>
+						To address the limitations of traditional gait monitoring, we developed a wearable sensor-based
+						system that integrates machine learning to analyze gait patterns and classify walking
+						activities. The system captures resistance data from sensors embedded in footwear, ensuring
+						structured and consistent data collection across different movement patterns.</p>
+
+					<p>The data is filtered to reduce teh noise and then key step features are extracted. Train the
+						machine learning models to classify the different walking activities
+						accurately. Semi-supervised learning enhances the model’s ability to generalize to new data,
+						while synthetic data generation (GANs) helps address data limitations.</p>
+
+					<p>The project aims to provide real-time gait monitoring.So, currently we are developing a mobile
+						application that
+						connects to the sensor system via Bluetooth and Firebase. This ongoing work focuses on enabling
+						seamless data transmission and visualization, making gait tracking more accessible and
+						data-driven for rehabilitation and mobility assessment.
+					</p>
+					<p><b>Role:</b></p>
+					<p>This is a collaborative project and I handled the machine learning development, including model
+						training, data processing, and
+						optimization. I communicate project updates and results to non-technical team members, ensuring
+						alignment and clarity across the collaboration.</p>
+					<p><b>Tools & Languages Used:</b></p>
+					<ul>
+						<li> Programming & Data Processing: Python, Pandas, NumPy, Scikit-learn</li>
+						<li>Machine Learning: Random Forest, SVM, Logistic Regression, Semi-Supervised Learning</li>
+						<li>Data Visualization: Power BI, Matplotlib, Excel</li>
+						<li>Hardware & Storage: Arduino, Bluetooth, Firebase</li>
+					</ul>
+
+					<ul class="actions">
+						<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a></li>
+					</ul>
+
+
+					</ul>
+				</section>
+
+				<!-- Project 2: VN-Solver -->
+				<section>
+					<header class="major">
+						<h2>VN-Solver: Vision-based Neural Solver using PointNet to solve Combinatorial Optimization
+							over Graphs</h2>
+					</header>
+					<a href="#" class="image main"><img src="Dhana Images/Vn-Solver image.png"
+							alt="ChatBotApplication" /></a>
+					<p><b>Problem:</b></p>
+					<p> Traditional combinatorial optimization solvers rely on matrix-based representations, which can
+						be complex and computationally expensive. Recognizing patterns in graphs visually is often more
+						intuitive, yet existing approaches do not fully leverage spatial graph structures. This project
+						introduces a novel approach to solving the Hamiltonian Cycle Problem by converting graphs into
+						3D point clouds, enabling neural networks to process and classify them based on their structural
+						properties. </p>
+					<p><b>Solution:</b></p>
+					<p>VN-Solver transforms 2D graphs into 3D point clouds using different graph embedding techniques,
+						such as circular, spiral, and random layouts. This conversion preserves spatial relationships
+						between nodes and edges, allowing for enhanced feature extraction.</p>
+					<p>Graph-to-Point Cloud Conversion: Transformed 2D graphs into 3D point clouds using circular,
+						spiral, and random graph embeddings.</p>
+					<p>Feature Extraction & Representation: Captured node positions, edge relationships, and graph
+						properties for enhanced classification.</p>
+					<p>Graph Classification with PointNet: Applied PointNet to process unordered point sets and classify
+						graphs as Hamiltonian or non-Hamiltonian.</p>
+					<p>Performance Evaluation: Tested across different graph embeddings to assess accuracy and
+						robustness.</p>
+					<p><b>Role:</b></p>
+					<p>This is an individual project and I developed the graph-to-3D point cloud transformation
+						pipeline, implemented PointNet, and conducted experiments. Utilized GPU to process large
+						datasets. </p>
+					<h3>Tools & Languages Used:</h3>
+					<ul>
+						<li><strong>Programming & ML:</strong> Python,TensorFlow,Pytorch,Scikit-Learn</li>
+						<li><strong>Graph & 3D Processing:</strong> Networkx, Open3D, NumPy, Pytcloud </li>
+						<li><strong>data Handling & Visualization:</strong> Pandas, Matplotlib, Seaborn, MeshLab</li>
+					</ul>
+					<ul class="actions">
+						<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a></li>
+					</ul>
+				</section>
+
+				<hr />
+
+				<!-- Project 3 -->
+				<section>
+					<header class="major">
+						<h2>AuAutomatic Music Generation Using Neural Networks</h2>
+					</header>
+					<a href="#" class="image main"><img src="images/codeanalyzer.jpg" alt="Code Analyzer" /></a>
+					<p>• Combining music, AI, and ML to generate unique and innovative musical experiences using LSTM
+						and GRU models.
+						• Preprocessed piano-based MIDI dataset to extract musical features enabling effective training
+						of original compositions. </p>
+
+					<ul class="actions">
+						<li><a href="https://github.com/Kdhana98" class="button primary" target="_blank">Github</a></li>
+					</ul>
+				</section>
+
+			</section>
+
+		</div>
+
+
+		</section>
+		</footer>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; Dhana Lakshmi Kankanala </li>
+			</ul>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

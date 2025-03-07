@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<!--
+	Author: Dhana Lakshmi Kankanala
+-->
+<html>
+	<head>
+		<title>Dhana Lakshmi Kankanala</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		.image-gallery {
+			display: flex;
+			gap: 10px;
+			flex-wrap: wrap;
+		}
+
+		.image-gallery .image {
+			width: calc(33.333% - 10px);
+		}
+
+		.image-gallery .image img {
+			width: 100%;
+			height: auto;
+			border-radius: 5px;
+		}
+
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+					<div id="intro">
+						<h1>DHANA LAKSHMI KANKANALA</h1>
+						<p> From raw data to real-world impact—crafting the future with AI. </p>
+						<p> Let's create an impact with TechImpact </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+					<header id="header">
+						<a href="index.html" class="logo">Know More</a>
+					</header>
+				
+					
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">ABOUT ME</a></li>
+							<li><a href="projects.html">PROJECTS</a></li>
+							<!-- <li><a href="resume.html">RESUME</a></li> -->
+							<!-- <li><a href="experiences.html">EXPERIENCES</a></li> -->
+							<!-- <li><a href="Achievement.html">ACHIEVEMENTS</a></li> -->
+							<!-- <li><a href="featured.html">FEATURED</a></li> -->
+						</ul>
+						<ul class="icons">
+            				<li><a href="https://github.com/Kdhana98" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            				<li><a href="https://www.linkedin.com/in/dhanakankanala/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">About Me</a></h2>
+									<p>I'm Dhana, a Data Science graduate from the University of Delaware with 4+ years of experience in machine learning, data analysis, and AI-driven solutions. Passionate about leveraging data for social good, I specialize in transforming complex data into actionable insights that drive innovation. My work aligns with Tech Impact’s mission to harness technology for meaningful change, and I’m eager to contribute my expertise to projects that make a real difference.</p>
+								</header>
+								<a href="#" class="image main"><img src="Dhana Images/headshot01.jpeg" alt="HeadShot" /></a>
+							</article>
+
+						<article class="post featured">
+								<header class="major">
+									
+									<h2><a href="#"> Interests </a></h2>
+									<p>
+										I am passionate about leveraging AI and data science to develop ethical, impactful solutions that address real-world challenges. My interests lie in crafting innovative, technology-driven strategies for social good—whether through predictive analytics, automation, or integrating AI/ML into practical applications to empower communities and drive meaningful change.
+									</p>
+									<p>
+										In my personal life, I enjoy playing sports, exploring nature through trails, and experimenting with cooking. I love watching sunsets, creating DIY crafts like painting and leaf art, and embracing new experiences that spark creativity and joy.
+									</p>
+									
+								</header>
+								<div class="image-gallery">
+									<a href="#" class="image"><img src="Dhana Images/WeCode-1 (1).jpeg" alt="Wecode-1" /></a>
+									<a href="#" class="image"><img src="Dhana Images/WeCode-2.jpeg" alt="Wecode-1" /></a>
+									<a href="#" class="image"><img src="Dhana Images/Sensify Lab-1.jpg" alt="Sensify" /></a>
+								</div>
+
+								<ul class="actions special">
+									<li><a href="Dhana_Kankanala_Resume.pdf" class="button large" download>Resume</a></li>
+								</ul>
+								<p style="text-align: center; font-size: small;"> For a detailed overview of my professional experience, Please download my resume. </p>
+							</article>
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section>
+						<form onsubmit="sendMail(); return false;">
+							<div class="fields">
+								<h2><a href="#"> Contact Me </a></h2>
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" required />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" required />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3" required></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</section>
+				</footer>
+
+				<script>
+					function sendMail() {
+						var name = document.getElementById("name").value;
+						var email = document.getElementById("email").value;
+						var message = document.getElementById("message").value;
+
+						
+						var mailtoLink = "mailto:dhanakankanala2012@gmail.com@gmail.com" +
+										"?subject=Contact Form Submission from " + encodeURIComponent(name) +
+										"&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
+
+
+						window.location.href = mailtoLink;
+					}
+				</script>
+
+				<!-- Copyright -->
+					<div id="copyright">
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
